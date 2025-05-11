@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Uma carta especial de Dia das Mães com animações e efeitos de corações." />
+  <title>Carta do Dia das Mães</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Adicionando a música de fundo -->
+  <audio id="bg-music" autoplay loop>
+    <source src="SpotiDownloader.com - Sweet Heat Lightning - Piano Cover - Pianothek.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+
+  <!-- Botão invisível para controlar a música -->
+  <button id="play-button" style="display:none;">Reproduzir Música</button>
+
+  <section class="scene">
+    <article class="card" id="card">
+      <div class="card-front">
+        <h1 role="img" aria-label="Ícone de carta">💌</h1>
+        <p><strong>To:</strong> Mamãe</p>
+        <p><strong>From:</strong> Jefter</p>
+      </div>
+      <div class="card-back">
+        <div class="envelope-container">
+          <div class="envelope-flap" id="flap" aria-hidden="true"></div>
+          <div class="envelope-base"></div>
+          <div class="letter" id="letter">
+            <h2>Feliz Dia das Mães!</h2>
+            <p id="mensagem"></p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="hearts" aria-hidden="true">
+    <span class="heart" style="--i:1;" aria-hidden="true"></span>
+    <span class="heart" style="--i:2;" aria-hidden="true"></span>
+    <span class="heart" style="--i:3;" aria-hidden="true"></span>
+    <span class="heart" style="--i:4;" aria-hidden="true"></span>
+    <span class="heart" style="--i:5;" aria-hidden="true"></span>
+    <span class="heart" style="--i:6;" aria-hidden="true"></span>
+    <span class="heart" style="--i:7;" aria-hidden="true"></span>
+    <span class="heart" style="--i:8;" aria-hidden="true"></span>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
