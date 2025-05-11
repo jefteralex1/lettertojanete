@@ -16,7 +16,7 @@ window.onload = () => {
         setTimeout(() => {
           letter.classList.add('show');
   
-          const texto = "Mamãe, neste dia especial quero lhe lembrar do quanto a senhora é amada. Obrigado por cada cada cuidado (até demais) e cada oração, a melhor mãe que eu poderia ter (nenhuma outra iria me aturar. Te amo mamãe!";
+          const texto = "Mamãe, neste dia especial quero lhe lembrar do quanto a senhora é amada. Obrigado por cada cada cuidado (até demais) e cada oração, a senhora é a melhor mãe que eu poderia ter (nenhuma outra iria me aturar). Te amo mamãe!";
           let index = 0;
           mensagem.innerText = "";
   
